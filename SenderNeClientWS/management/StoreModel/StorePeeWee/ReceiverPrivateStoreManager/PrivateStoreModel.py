@@ -11,7 +11,7 @@ except ImportError:
     import queue as Queue
 
 
-temp_storeModels_Folder = "D:\\Users\\CPBLK\\Desktop\\Temp For SenderNe\\For WebSocket Project\\DBs\\PrivateReceiverRequests\\"
+temp_storeModels_Folder = os.path.dirname(os.path.dirname(os.path.abspath(__file__))) + "//"
 TempBaseDBName = "PeeWee_Temp_PrivateReceiverRequests_DB"
 
 
