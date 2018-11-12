@@ -1,4 +1,4 @@
-django >=1.9, <2
+Django == 2.0.8
 django-forms-builder == 0.14.0
 django-crispy-forms == 1.7.2
 django-registration-redux == 2.4
