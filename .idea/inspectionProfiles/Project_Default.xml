@@ -1,0 +1,94 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AlphaUnsortedPropertiesFile" enabled="true" level="INFO" enabled_by_default="true" />
+    <inspection_tool class="CheckEmptyScriptTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="CheckValidXmlInScriptTagBody" enabled="true" level="ERROR" enabled_by_default="true">
+      <scope name="Problems" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="DuplicatePropertyInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="CURRENT_FILE" value="true" />
+      <option name="MODULE_WITH_DEPENDENCIES" value="false" />
+      <option name="CHECK_DUPLICATE_VALUES" value="true" />
+      <option name="CHECK_DUPLICATE_KEYS" value="true" />
+      <option name="CHECK_DUPLICATE_KEYS_WITH_DIFFERENT_VALUES" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlExtraClosingTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlMissingClosingTag" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <scope name="Problems" level="INFORMATION" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAnchorTarget" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true">
+        <option name="myValues">
+          <value>
+            <list size="0" />
+          </value>
+        </option>
+        <option name="myCustomValuesEnabled" value="true" />
+      </scope>
+      <option name="myValues">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownBooleanAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true">
+        <option name="myValues">
+          <value>
+            <list size="6">
+              <item index="0" class="java.lang.String" itemvalue="nobr" />
+              <item index="1" class="java.lang.String" itemvalue="noembed" />
+              <item index="2" class="java.lang.String" itemvalue="comment" />
+              <item index="3" class="java.lang.String" itemvalue="noscript" />
+              <item index="4" class="java.lang.String" itemvalue="embed" />
+              <item index="5" class="java.lang.String" itemvalue="script" />
+            </list>
+          </value>
+        </option>
+        <option name="myCustomValuesEnabled" value="true" />
+      </scope>
+      <option name="myValues">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTarget" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="PyAugmentAssignmentInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="SenderNeClientWS.management.ProcessManage.ModelsContentManager.ModelContent_LocalFileInfo.refresh_ModelType_LocalFileInfo" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
+      <scope name="Problems" level="WARNING" enabled="true">
+        <option name="myAdditionalRequiredHtmlAttributes" value="" />
+      </scope>
+      <option name="myAdditionalRequiredHtmlAttributes" value="" />
+    </inspection_tool>
+  </profile>
+</component>
