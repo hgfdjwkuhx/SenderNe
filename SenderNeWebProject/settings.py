@@ -26,7 +26,7 @@ SECRET_KEY = '90ea97fa-a856-4b40-bee1-041f1d6ecb1e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [u'hvsgkd.herokuapp.com']
 
 
 
@@ -163,7 +163,7 @@ MAP_APPS_TO_DB = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join("D:\\Users\\CPBLK\\Desktop\\Temp For SenderNe\\For WebSocket Project\\DBs\\MainDB\\", 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
