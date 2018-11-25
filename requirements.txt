@@ -8,6 +8,7 @@ djangorestframework == 3.7.7
 djangorestframework-jsonp == 1.0.2
 peewee == 3.4.0
 peewee-manager == 1.0.3
+websockets == 6.0
 
 
 
