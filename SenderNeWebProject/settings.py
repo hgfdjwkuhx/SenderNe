@@ -26,7 +26,8 @@ SECRET_KEY = '90ea97fa-a856-4b40-bee1-041f1d6ecb1e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'hvsgkd.herokuapp.com']
+#ALLOWED_HOSTS = [u'hvsgkd.herokuapp.com']
+ALLOWED_HOSTS = ['*']
 
 
 
@@ -266,7 +267,8 @@ LOGGING = {
         }
     }
 }
-INTERNAL_IPS = ['127.0.0.1', 'localhost']
+#INTERNAL_IPS = ['127.0.0.1', 'localhost']
+INTERNAL_IPS = []
 SESSION_COOKIE_AGE = 12096000
 LOGIN_REDIRECT_URL = '/admin/'
 

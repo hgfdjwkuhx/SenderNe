@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeWebProject.pyproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeWebProject.pyproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SenderNeWebProject.pyproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/SenderNeWebProject.pyproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SenderNeWebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeWebProject/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SenderNe$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1543187240613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SenderNeClientWS/management" />
     <SUITE FILE_PATH="coverage/SenderNeWebProject$run_senderNeWS_server.coverage" NAME="run_senderNeWS_server Coverage Results" MODIFIED="1541879354082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SenderNeClientWS/management/commands" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -33,18 +30,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="127">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+              <folding>
+                <element signature="e#319#328#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.html">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderNeWebProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderNeWebProject/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_senderNeWS_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-145">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SenderNeClientWS/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -97,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SenderNeClientWS/management/StoreModel/StorePeeWee/UserPrivateStoreManager/ModelControllers/LocalFileInfo.py" />
         <option value="$PROJECT_DIR$/SenderNeClientWS/management/ProcessManage/CampaignManager/CampaignResult.py" />
         <option value="$PROJECT_DIR$/SenderNeClientWS/management/ProcessManage/CampaignManager/GetResult_All.py" />
         <option value="$PROJECT_DIR$/SenderNeClientWS/management/ManageWS/UserWSUtilities.py" />
@@ -146,8 +187,9 @@
         <option value="$PROJECT_DIR$/SenderNeClientAPI/views/ClientAPI.py" />
         <option value="$PROJECT_DIR$/SenderNeClientWS/TestSockets/testSocket01.py" />
         <option value="$PROJECT_DIR$/SenderNeWebProject/wsgi.py" />
-        <option value="$PROJECT_DIR$/SenderNeWebProject/settings.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/SenderNeWebProject/settings.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -172,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,21 +222,10 @@
               <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
               <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
-              <item name="SenderNeClientAPI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
-              <item name="SenderNeWebProject" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,14 +243,15 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\WebSocket\01\SenderNe\SenderNeWebProject\SenderNeClientWS\management\StoreModel\StorePeeWee\ReceiverPrivateStoreManager" />
-      <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\Django\01\SenderNe\SenderNeWebProject\SenderNeClientAPI\Commons" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\WebSocket\01\SenderNe\SenderNeWebProject\SenderNeClientWS\management" />
       <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\Django\01\SenderNe\SenderNeWebProject\SenderNeClientWS\management" />
       <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\Django\01\SenderNe\SenderNeWebProject\SenderNeClientWS\management\StoreModel\StorePeeWee\UserPrivateStoreManager" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\CPBLK\Documents\GitHub\SenderNe" />
+      <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\WebSocket\01\SenderNe\SenderNeWebProject\SenderNeClientWS\management\StoreModel\StorePeeWee\ReceiverPrivateStoreManager" />
+      <recent name="D:\Users\CPBLK\Desktop\proj\SenderMe project\Django\01\SenderNe\SenderNeWebProject\SenderNeClientAPI\Commons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,6 +281,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="runserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SenderNeWebProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SenderNeClientWS/management" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SenderNeClientWS/management/runserver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,9 +378,11 @@
       <item itemvalue="Django server.SocketServer" />
       <item itemvalue="Django server.runserver01" />
       <item itemvalue="Python.run_senderNeWS_server" />
+      <item itemvalue="Python.runserver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.runserver" />
         <item itemvalue="Python.run_senderNeWS_server" />
       </list>
     </recent_temporary>
@@ -356,7 +410,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="796" extended-state="7" />
+    <frame x="-6" y="-6" width="1549" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32868218" />
@@ -365,47 +419,47 @@
       <window_info anchor="bottom" id="Run" order="6" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49899396" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32868218" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22065727" />
+      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32868218" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32997987" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="manage.py@SenderNeWebProject" order="12" visible="true" weight="0.32868218" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32868218" />
+      <window_info anchor="bottom" id="manage.py@SenderNeWebProject" order="12" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32868218" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32868218" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26358148" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="manage.py@SenderNeWebProject" order="13" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32868218" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32961586" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,6 +728,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientAPI/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -716,13 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/ManageWS/UserWSUtilities.py" />
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/UserUtilities.py" />
-    <entry file="file://$PROJECT_DIR$/SenderNeWebProject.pyproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject.pyproj" />
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/Common/RandomIds.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1" />
@@ -782,30 +840,11 @@
     </entry>
     <entry file="file://D:/PyCharm/main env/Python/Python36/Lib/site-packages/django/urls/conf.py" />
     <entry file="file://D:/PyCharm/main env/Python/Python36/Lib/site-packages/django/utils/module_loading.py" />
-    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="971">
-          <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/runserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/run_chat_server_uvloop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592" />
       </provider>
     </entry>
     <entry file="file://D:/PyCharm/main env/Python/Python36/Lib/site-packages/tornado/httputil.py" />
@@ -823,36 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/channels.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
@@ -870,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="29" selection-start-line="29" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -890,12 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Desktop/proj/PyCharm/main env/Python/Python36/Lib/site-packages/registration/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -903,10 +907,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/run_chat_server_uvloop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="127">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
