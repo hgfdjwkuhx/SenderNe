@@ -32,9 +32,10 @@ ALLOWED_HOSTS = ['*']
 
 
 ####### Socket Server ############
-CHAT_WS_SERVER_HOST = 'localhost'
+#CHAT_WS_SERVER_HOST = 'localhost'
+CHAT_WS_SERVER_HOST = 'host'
 #CHAT_WS_SERVER_PORT = 5002
-CHAT_WS_SERVER_PORT = 5002
+CHAT_WS_SERVER_PORT = 'port'
 CHAT_WS_SERVER_PROTOCOL = 'ws'
 
 
