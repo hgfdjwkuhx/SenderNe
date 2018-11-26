@@ -1,1 +1,1 @@
-web: gunicorn SenderNeWebProject.wsgi -b 0.0.0.0:$PORT
+web: gunicorn -b 0.0.0.0:$PORT SenderNeWebProject.wsgi

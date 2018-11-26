@@ -79,6 +79,8 @@ INSTALLED_APPS = [
     ####### Channels ############
     #'debug_toolbar',
 
+
+    "gunicorn",
 ]
 
 
