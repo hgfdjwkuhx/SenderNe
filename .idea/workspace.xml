@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="" />
+    <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/SenderNeWebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeWebProject/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2643">
-              <caret line="271" column="8" selection-start-line="271" selection-start-column="8" selection-end-line="271" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="e#319#328#0" expanded="true" />
               </folding>
@@ -33,20 +35,11 @@
       <file leaf-file-name="run_senderNeWS_server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="-191">
+              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="43" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -187,6 +180,24 @@
             <path>
               <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
               <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
+              <item name="SenderNeClientWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
+              <item name="SenderNeClientWS" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
+              <item name="SenderNeClientWS" type="462c0819:PsiDirectoryNode" />
+              <item name="management" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
               <item name="SenderNeWebProject" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -197,7 +208,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../python-websockets-chat" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -377,7 +388,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="796" extended-state="7" />
+    <frame x="-6" y="-6" width="1549" height="796" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32868218" />
@@ -387,12 +398,12 @@
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32868218" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32997987" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" visible="true" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -659,11 +670,6 @@
           <option name="timeStamp" value="305" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="306" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SenderNeClientWS/TestSockets/testSocket01.py</url>
           <line>79</line>
           <option name="timeStamp" value="313" />
@@ -687,11 +693,6 @@
           <url>file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py</url>
           <line>31</line>
           <option name="timeStamp" value="320" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py</url>
-          <line>22</line>
-          <option name="timeStamp" value="321" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py</url>
@@ -863,11 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/run_chat_server_uvloop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -932,30 +928,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2643">
-          <caret line="271" column="8" selection-start-line="271" selection-start-column="8" selection-end-line="271" selection-end-column="8" />
-          <folding>
-            <element signature="e#319#328#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/run_chat_server_uvloop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/commands/run_senderNeWS_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="-191">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="43" selection-end-column="43" />
+        <state relative-caret-position="238">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
