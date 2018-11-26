@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/SenderNeWebProject/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeWebProject/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SenderNeWebProject/wsgi.py">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="e#672#681#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -129,10 +126,10 @@
         <option value="$PROJECT_DIR$/SenderNeClientWS/management/testSockets.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/views/ClientAPI.py" />
         <option value="$PROJECT_DIR$/SenderNeClientWS/TestSockets/testSocket01.py" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/SenderNeWebProject/settings.py" />
         <option value="$PROJECT_DIR$/SenderNeWebProject/wsgi.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -145,7 +142,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1950" />
@@ -386,12 +383,12 @@
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32868218" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32997987" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49899396" visible="true" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -908,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -949,6 +939,13 @@
           <folding>
             <element signature="e#672#681#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
