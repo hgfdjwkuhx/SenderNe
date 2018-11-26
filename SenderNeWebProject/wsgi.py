@@ -14,6 +14,7 @@ framework.
 
 """
 import os
+from subprocess import call
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SenderNeWebProject.settings")
 
@@ -22,7 +23,8 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "SenderNeWebProject.settings")
 # setting points here.
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
-
+print("----------------------------")
+call('python manage.py run_senderNeWS_server')
 
 # Apply WSGI middleware here.
 # from helloworld.wsgi import HelloWorldApplication
