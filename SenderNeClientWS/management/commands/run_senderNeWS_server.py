@@ -29,6 +29,11 @@ class Command(BaseCommand):
             )
         )
 
+        print("---------------------------------------------------------------------------------------------------\n" +
+              "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
+
+
         logger.info('Chat server started')
         #asyncio.async(handlers.new_messages_handler(channels.new_messages))
         asyncio.async(handlers.users_changed_handler(channels.users_changed))
