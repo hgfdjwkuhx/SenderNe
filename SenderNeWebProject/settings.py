@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import posixpath
+from os import environ
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,7 +36,7 @@ ALLOWED_HOSTS = ['*']
 #CHAT_WS_SERVER_HOST = 'localhost'
 CHAT_WS_SERVER_HOST = '0.0.0.0'
 #CHAT_WS_SERVER_PORT = 5002
-CHAT_WS_SERVER_PORT = '$PORT'
+CHAT_WS_SERVER_PORT = environ.get('PORT')
 #CHAT_WS_SERVER_PROTOCOL = 'ws'
 CHAT_WS_SERVER_PROTOCOL = 'https'
 
