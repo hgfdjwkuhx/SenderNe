@@ -35,7 +35,7 @@ class Command(BaseCommand):
         print( "\nsettings.CHAT_WS_SERVER_HOST == " + str(settings.CHAT_WS_SERVER_HOST) +
                "\nsettings.CHAT_WS_SERVER_PORT == " + str(settings.CHAT_WS_SERVER_PORT)
                )
-        
+
         print("---------------------------------------------------------------------------------------------------\n" +
               "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 

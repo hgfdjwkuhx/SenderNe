@@ -281,6 +281,8 @@ def main_handler(websocket, path):
     # AA check User Socket
     user_processor_info = get_userProcessorInfo_from_session(session_id)
     if user_processor_info is not None:
+        print("\n################# is User ######################")
+
         user_objectId = user_processor_info.user_objectId
         # 01 check UserObject Id
         #
@@ -338,6 +340,7 @@ def main_handler(websocket, path):
     else:
         # BB check Processor Socket
         if session_id.__len__() == 50:
+            print("\n################# is Processor ######################")
             processor_model = get_processorInfo_from_session(session_id)
             if processor_model is not None:
                 processor_objectId = processor_model.processor_ObjectId
