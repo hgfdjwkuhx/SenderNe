@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     #'country_dialcode',
 
     ######################
-    'django_bulk_update',
+    #'django_bulk_update',
 
     ########## rest framework #########
     'rest_framework',
