@@ -1,3 +1,1 @@
-
-web: python manage.py run_senderNeWS_server
-worker : python manage.py runserver
+web: gunicorn SenderNeWebProject.wsgi -b 0.0.0.0:$PORT

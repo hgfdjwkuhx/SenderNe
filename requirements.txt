@@ -2,7 +2,7 @@ Django == 2.0.8
 django-forms-builder == 0.14.0
 django-crispy-forms == 1.7.2
 django-registration-redux == 2.4
-django-debug-toolbar == 1.6
+django-debug-toolbar == 1.9.1
 django-rest-auth == 0.9.3
 djangorestframework == 3.7.7
 djangorestframework-jsonp == 1.0.2
@@ -11,5 +11,6 @@ peewee-manager == 1.0.3
 websockets == 6.0
 gunicorn == 19.9.0
 
-
+dj-database-url==0.4.0
+psycopg2-binary == 2.7.6.1
 

@@ -32,21 +32,11 @@ ALLOWED_HOSTS = ['*']
 
 
 
-####### Socket Server ############
-#CHAT_WS_SERVER_HOST = 'localhost'
-CHAT_WS_SERVER_HOST = '0.0.0.0'
-#CHAT_WS_SERVER_PORT = 5002
-CHAT_WS_SERVER_PORT = environ.get('PORT')
-CHAT_WS_SERVER_PROTOCOL = 'ws'
-#CHAT_WS_SERVER_PROTOCOL = 'https'
-
-
 # Application definition
 
 INSTALLED_APPS = [
     'app',
     'SenderNeClientAPI',
-    'SenderNeClientWS',
 
 
 
@@ -66,7 +56,7 @@ INSTALLED_APPS = [
     #'country_dialcode',
 
     ######################
-    # 'django_bulk_update',
+    'django_bulk_update',
 
     ########## rest framework #########
     'rest_framework',
@@ -77,7 +67,7 @@ INSTALLED_APPS = [
 
 
     ####### Channels ############
-    #'debug_toolbar',
+    'debug_toolbar',
 
 
     "gunicorn",
@@ -107,7 +97,7 @@ MIDDLEWARE_CLASSES = [
 MIDDLEWARE = [
     ####### Channels ############
 
-    #'debug_toolbar.middleware.DebugToolbarMiddleware',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 
     ####### Base ############
 
@@ -164,6 +154,34 @@ MAP_APPS_TO_DB = {
 
 }
 
+#postgres://user:pass@localhost/dbname
+#DATABASE_URL: postgres://mkigesztkwaiqa:075d7a98e8c8b4fde6e9d9a5211dc31506c17689060c07ead092c0d3ce3ee251@ec2-50-17-203-51.compute-1.amazonaws.com:5432/d3trujo4q0vl5p
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'your_heroku_db_name',
+        'USER': 'your_heroku_db_user_name',
+        'PASSWORD': 'your_heroku_password',
+        'HOST': 'ec2-23-21-133-106.compute-1.amazonaws.com', # Or something like this
+        'PORT': '5432',
+    }
+}
+'''
+
+#'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd3trujo4q0vl5p',
+        'USER': 'mkigesztkwaiqa',
+        'PASSWORD': '075d7a98e8c8b4fde6e9d9a5211dc31506c17689060c07ead092c0d3ce3ee251',
+        'HOST': 'ec2-50-17-203-51.compute-1.amazonaws.com', # Or something like this
+        'PORT': '5432',
+    }
+}
+
+'''
 
 
 DATABASES = {
@@ -173,6 +191,8 @@ DATABASES = {
     }
 }
 
+
+'''
 
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
@@ -223,7 +243,7 @@ ACCOUNT_ACTIVATION_DAYS = 7 # One-week activation window; you may, of course, us
 REGISTRATION_AUTO_LOGIN = True # Automatically log the user in.
 
 SITE_ID = 1
-#LOGIN_REDIRECT_URL='/'
+LOGIN_REDIRECT_URL='/'
 
 
 
