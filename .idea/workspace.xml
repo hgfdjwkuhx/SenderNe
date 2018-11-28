@@ -4,7 +4,6 @@
     <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SenderNeWebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeWebProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+            <state relative-caret-position="-99">
+              <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
               <folding>
                 <element signature="e#319#328#0" expanded="true" />
               </folding>
@@ -45,7 +44,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>AdvertisingSubject</find>
       <find>LocalFileInfo</find>
       <find>AdvertisiementContactMessage</find>
       <find>AdvertisingCampaignPackage</find>
@@ -75,6 +73,7 @@
       <find>WSGI_APPLICATION</find>
       <find>port</find>
       <find>STATIC_ROOT</find>
+      <find>STATICFILES_DIRS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,7 +146,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1950" />
@@ -171,6 +170,11 @@
               <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
               <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
               <item name="SenderNeWebProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -369,13 +373,13 @@
       <window_info anchor="bottom" id="Run" order="6" weight="0.32868218" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49899396" weight="0.32868218" />
       <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49899396" weight="0.32868218" />
-      <window_info anchor="bottom" id="Terminal" order="3" visible="true" weight="0.32868218" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32868218" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.22401074" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32997987" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49832326" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.49832326" visible="true" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -688,7 +692,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/UserUtilities.py" />
     <entry file="file://$PROJECT_DIR$/SenderNeWebProject.pyproj" />
     <entry file="file://$PROJECT_DIR$/SenderNeClientWS/management/Common/RandomIds.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -992,10 +995,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/wsgiref/simple_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="58" column="18" lean-forward="true" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+        <state relative-caret-position="-99">
+          <caret line="171" column="1" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
           <folding>
             <element signature="e#319#328#0" expanded="true" />
           </folding>
