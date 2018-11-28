@@ -7,38 +7,6 @@ from django.utils.translation import ugettext as _
 from SenderNeClientAPI.Commons.BlockStates import BlockedStatu
 
 
-class Todo(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.TextField()
-
-    def __str__(self):
-        """A string representation of the model."""
-        return self.title
-
-
-class UserPrivateStoreInfoManager(models.Manager):
-
-    pass
-
-class UserPrivateStoreInfo(models.Model):
-    id = models.AutoField(primary_key=True)
-    owner = models.OneToOneField(settings.AUTH_USER_MODEL, verbose_name=_("store owner"), related_name="related_user_private_store_info", on_delete=models.PROTECT)
-
-    db_name = models.CharField(max_length=100, null=True , default=RandomIds.get_random_PrivateUserStore_dbName)
-    store_name = models.CharField(max_length=100, null=True , default=RandomIds.get_random_PrivateUserStore_storeName)
-
-    added = models.DateTimeField(auto_now_add=True)
-    updated = models.DateTimeField(auto_now=True)
-
-    objects = UserPrivateStoreInfoManager()
-
-    def __str__(self):
-        return str(self.owner)
-
-    class Meta:
-        db_table = 'at_user_private_store_infos'
-
-
 #-------------------------------------------------------------------------------/
 
 class ProcessorInfoManager(models.Manager):

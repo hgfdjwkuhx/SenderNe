@@ -10,4 +10,4 @@ class TodoSerializer(serializers.ModelSerializer):
             'title',
             'description',
         )
-        model = models.Todo
+#        model = models.Todo

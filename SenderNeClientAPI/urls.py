@@ -18,9 +18,7 @@ urlpatterns =[
     #url(r'^ContactsManager/test/RemoveAll/$',home.test_RemoveAll , name = 'test.removeAll'),
     #url(r'^ContactsManager/test/remove/whatsContacts/$',home.Test_RemoveWhatsContacts , name = 'test.remove.whatsContacts'),
 
-    url(r'^client/tado/$', ClientAPI.ListTodo.as_view()),
-    #url('client/tado/<int:pk>/', ClientAPI.DetailTodo.as_view()),
-    url(r'^client/tados/(?P<pk>[0-9]+)/', ClientAPI.DetailTodo.as_view()),
+
 ]
 
 
