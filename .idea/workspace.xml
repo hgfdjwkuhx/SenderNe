@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/Commons/RandomIds.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/Commons/RandomIds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0002_userprivatestoreinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0003_processorinfo_tempuserprivateprocessorinfo_userprivateprocessorinfo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0004_auto_20181104_0034.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/migrations/0005_auto_20181128_0555.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SenderNeClientAPI/views/ClientAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeClientAPI/views/ClientAPI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SenderNeWebProject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SenderNeWebProject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +19,20 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-79">
+              <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+              <folding>
+                <element signature="e#319#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,10 +129,10 @@
         <option value="$PROJECT_DIR$/SenderNeClientAPI/Commons/RandomIds.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/admin.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/views/ClientAPI.py" />
-        <option value="$PROJECT_DIR$/SenderNeWebProject/settings.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/urls.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/models.py" />
         <option value="$PROJECT_DIR$/SenderNeClientAPI/views/FreeClientAPI.py" />
+        <option value="$PROJECT_DIR$/SenderNeWebProject/settings.py" />
       </list>
     </option>
   </component>
@@ -145,7 +145,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-15" />
     <option name="width" value="1950" />
@@ -163,11 +163,6 @@
             <path>
               <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
               <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SenderNe" type="462c0819:PsiDirectoryNode" />
-              <item name="SenderNeClientAPI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SenderNe" type="b2602c69:ProjectViewProjectNode" />
@@ -364,6 +359,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="796" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50167674" side_tool="true" weight="0.4" />
@@ -912,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-456">
-          <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#319#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SenderNeClientAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -940,6 +926,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="185" column="23" selection-start-line="185" selection-start-column="13" selection-end-line="185" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SenderNeWebProject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-79">
+          <caret line="177" column="3" selection-start-line="177" selection-start-column="3" selection-end-line="177" selection-end-column="3" />
+          <folding>
+            <element signature="e#319#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
