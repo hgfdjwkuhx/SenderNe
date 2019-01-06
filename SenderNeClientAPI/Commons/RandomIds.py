@@ -26,6 +26,9 @@ def get_random_PrivateUser_userObjectId():
 def get_random_PrivateUser_TempUserObjectId():
     return (''.join([random.choice(string.ascii_letters ) for n in range(65)])).lower()
 
+def get_random_PrivateUser_TempUserIdentifier():
+    return (''.join([random.choice(string.ascii_letters ) for n in range(44)])).lower()
+
 def get_random_PrivateProcessor_processorObjectId():
     return (''.join([random.choice(string.ascii_letters ) for n in range(60)])).lower()
 
@@ -37,8 +40,15 @@ def get_random_PrivateTempUser_TempUserToken():
     return (''.join([random.choice(string.ascii_letters ) for n in range(68)]))
 
 
+def get_random_PrivatePhoneDevicePrivateUser_SelfObjectId():
+    return (''.join([random.choice(string.ascii_letters ) for n in range(26)]))
 
+def get_random_TempPrivatePhoneDevicePrivateUser_SelfObjectId():
+    return (''.join([random.choice(string.ascii_letters ) for n in range(27)]))
 
+def get_random_PrivatePhoneDevicePrivateUser_DeviceToken():
+    return (''.join([random.choice(string.ascii_letters ) for n in range(63)]))
 
-
+def get_random_TempPrivatePhoneDevicePrivateUser_DeviceToken():
+    return (''.join([random.choice(string.ascii_letters ) for n in range(66)]))
 

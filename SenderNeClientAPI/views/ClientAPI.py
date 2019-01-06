@@ -26,6 +26,9 @@ def testConnection(request):
 
     return JsonResponse(resultt , safe = True)
 
+
+
+
 #************************* Trying ***********************#
 
 # api/views.py
