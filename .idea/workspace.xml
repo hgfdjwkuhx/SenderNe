@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c6123505-fb85-4262-ba54-814679c950ee" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -364,7 +362,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1549" height="796" extended-state="6" />
+    <frame x="-6" y="-6" width="1549" height="796" extended-state="7" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" weight="0.32868218" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50167674" side_tool="true" weight="0.4" />
